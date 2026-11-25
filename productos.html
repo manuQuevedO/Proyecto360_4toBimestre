@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MKn5NWVBEuQXJE7TSKSgPUmMiSCmVTfCsR+VSSeQpHnoyJQZZFn/kBn+Ht5jZDPQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Productos | FANCESA</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar sm:navbar-expand bg-white sticky-top border-bottom" aria-label="Navegación principal">
+            <div class="container">
+                <a class="navbar-brand marca-fancesa" href="index.html#inicio" aria-label="FANCESA, inicio">
+                    <img src="https://www.fancesa.com/wp-content/uploads/2015/04/Logo-Menu-principal.png" alt="" height="50px" width="200px">
+                    <span><small>Construimos futuro</small></span>
+                </a>
+                <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú de navegación">
+                    <span class="navbar-toggler-icon" aria-hidden="true"></span>
+                </button>
+                <dialog class="drawer drawer-end" id="menuPrincipal" aria-labelledby="menuPrincipalLabel">
+                    <div class="drawer-header">
+                        <h5 class="drawer-title" id="menuPrincipalLabel">Menú</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Cerrar"></button>
+                    </div>
+                    <div class="drawer-body">
+                        <div class="nav navbar-nav ms-auto align-items-lg-center gap-lg-3">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                            <a class="nav-link" href="index.html#empresa">Inventario</a>
+                            <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+                            <a class="nav-link" href="RegistroUsuarios.php">Registro de usuarios</a>
+                        </div>
+                    </div>
+                </dialog>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="row align-items-center">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src="img/IP-40.jpeg" class="card-img" alt="...">
+                        <h5 class="mt-2 mb-0">Cemento IP-40</h5>
+                        <p class="card-text fg-2">
+                            Alta resistencia y durabilidad para
+obras exigentes Es un cemento Portland con puzolana, desarrollado para hormigones que requieren mayor resistencia mecánica, durabilidad y buen comportamiento frente a condiciones ambientales
+exigentes.
+                        </p>
+                        <small class="fg-3">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src="img/Eco.jpeg" class="card-img" alt="...">
+                        <h5 class="mt-2 mb-0">Cemento Eco</h5>
+                        <p class="card-text fg-2">Ecológico, económico y de gran
+                        rendimiento Es un cemento Portland con adiciones mixtas, desarrollado para ofrecer un buen desempeño en trabajos de albañilería у obras no estructurales.
+                        </p>
+                        <small class="fg-3">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src="img/IP-30.jpeg" class="card-img" alt="...">
+                        <h5 class="mt-2 mb-0">Cemento IP-30</h5>
+                        <p class="card-text fg-2">
+                            El cemento versátil para
+construcciones generales Es un cemento Portland con puzolana, de resistencia media y uso general. Combina buena trabajabilidad, durabilidad у comportamiento progresivo de la
+resistencia.
+                        </p>
+                        <small class="fg-3">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src="img/Superios.jpeg" class="card-img" alt="...">
+                        <h5 class="mt-2 mb-0">Cemento IP-40 PIONERO</h5>
+                        <p class="card-text fg-2">
+                            Máxima respuesta estructural y
+resistencia inicial Es un cemento Portland de categoría resistente alta. Su principal ventaja es el rápido desarrollo de resistencia, lo que permite optimizar los tiempos de construcción y acelerar el
+desencofrado.
+                        </p>
+                        <small class="fg-3">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer-fancesa py-5">
+        <div class="container">
+            <div class="row gy-4 align-items-start">
+                <div class="col-lg-5">
+                    <a class="navbar-brand marca-fancesa marca-footer" href="#inicio">
+                        <img src="https://www.fancesa.com/wp-content/uploads/2015/04/Logo-Menu-principal.png" alt="" height="50px" width="200px">
+                        <span><small>Construimos futuro</small></span>
+                    </a>
+                    <p class="footer-descripcion mt-3 mb-0">Comprometidos con el desarrollo y la construcción de Bolivia.</p>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <h2 class="h6 text-white fw-bold">Explora</h2>
+                    <ul class="nav flex-column footer-enlaces">
+                        <li class="nav-item"><a class="nav-link px-0" href="#empresa">La empresa</a></li>
+                        <li class="nav-item"><a class="nav-link px-0" href="#productos">Productos</a></li>
+                        <li class="nav-item"><a class="nav-link px-0" href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-4">
+                    <h2 class="h6 text-white fw-bold">FANCESA</h2>
+                    <p class="footer-descripcion">Sucre, Bolivia</p>
+                    <p class="footer-descripcion mb-0">Conoce nuestras soluciones para la construcción.</p>
+                </div>
+            </div>
+            <div class="border-top border-secondary mt-4 pt-3 d-flex flex-column flex-md-row justify-content-between gap-2">
+                <small class="footer-descripcion">© 2026 FANCESA. Todos los derechos reservados.</small>
+                <small class="footer-descripcion">Calidad que construye futuro.</small>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-+PW0IDVGGwmpaBQvcXY+W0BcpHpITFB3dSfSoGvDdHtLbrLpSbpGcvtQRM/BJpz+" crossorigin="anonymous"></script>
+    
+</body>
+</html>
